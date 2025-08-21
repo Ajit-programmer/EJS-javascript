@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+</head>
+<body>
+    <h1> USERNAME : 
+        <%= username %>
+    </h1>
+    <button>Follow</button>
+    <button>Message</button>
+     <h2>Name of Follower :   </h2>
+     <ol>
+        <%for ( let name of Followers) {%>
+           <li> <%=name%></li>
+            <%}%>
+   </ol>
+    <style>
+        h1 {
+            text-align: center;
+            text-shadow: 1px;
+            color: blueviolet;
+            border: 2mm;
+        }
+    </style>
+</body>
+</html>
